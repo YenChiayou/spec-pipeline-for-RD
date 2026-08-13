@@ -1,0 +1,10 @@
+{
+  "name": "spec-pipeline",
+  "description": "PRD → FRD → Delivery Spec → Review → Export. A 4-phase skill chain that transforms product requirements into structured delivery documents for all RDs (F2E, App, Backend, DBA). Features configurable role combinations, multi-role review with subagent fan-out, network resilience matrix, and HackMD-compatible Markdown output.",
+  "version": "1.1.1",
+  "author": {
+    "name": "Joe Yen"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/YenChiayou/spec-pipeline-for-RD"
+}

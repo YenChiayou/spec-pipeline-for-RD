@@ -1,0 +1,19 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "spec-pipeline",
+  "description": "PRD → FRD → Delivery Spec → Review → Export. A 4-phase skill chain for structured delivery documents.",
+  "owner": {
+    "name": "Joe Yen"
+  },
+  "plugins": [
+    {
+      "name": "spec-pipeline",
+      "description": "PRD → FRD → Delivery Spec → Review → Export. A 4-phase skill chain that transforms product requirements into structured delivery documents for all RDs (F2E, App, Backend, DBA). Features configurable role combinations, multi-role review with subagent fan-out, network resilience matrix, and HackMD-compatible Markdown output.",
+      "author": {
+        "name": "Joe Yen"
+      },
+      "source": ".",
+      "homepage": "https://github.com/YenChiayou/spec-pipeline-for-RD"
+    }
+  ]
+}
